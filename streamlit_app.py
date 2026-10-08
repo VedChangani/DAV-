@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+
+# Make `src` importable no matter which folder the app is deployed from
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
 import streamlit as st
 
 st.set_page_config(
