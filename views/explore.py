@@ -3,6 +3,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+from src.processing import AGE_GROUPS
 from src.ui import DIVERGING, OUTCOME_COLORS, OUTCOME_ORDER, RISK_ORDER, get_data, pct, style
 
 _, df, _ = get_data()
@@ -16,7 +17,7 @@ courses = f1.multiselect("Course", sorted(df["course"].unique()), placeholder="A
 gender = f2.selectbox("Gender", ["All", *sorted(df["gender"].unique())])
 attendance = f3.selectbox("Attendance", ["All", *sorted(df["daytime_evening_attendance"].unique())])
 scholarship = f4.selectbox("Scholarship", ["All", "Yes", "No"])
-ages = f5.multiselect("Age group", ["≤20", "21–24", "25–30", "30+"], placeholder="All ages")
+ages = f5.multiselect("Age group", AGE_GROUPS, placeholder="All ages")
 
 d = df
 if courses:
@@ -108,7 +109,7 @@ with c1:
     age = outcome_share(d, "age_group")
     age = age[age["target"] == "Dropout"]
     fig = px.bar(age, x="age_group", y="share", text=age["share"].map(pct), custom_data=["n"],
-                 category_orders={"age_group": ["≤20", "21–24", "25–30", "30+"]},
+                 category_orders={"age_group": AGE_GROUPS},
                  color_discrete_sequence=[OUTCOME_COLORS["Dropout"]], title="Dropout rate by age at enrolment")
     fig.update_traces(textposition="outside", cliponaxis=False,
                       hovertemplate="%{x}: %{y:.1%} of %{customdata[0]} students<extra></extra>")

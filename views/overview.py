@@ -34,7 +34,7 @@ steps = [
      "views/processing.py"),
     (":material/account_tree: KNIME", "Visual, no-code workflow: 28 nodes from CSV to a scored decision tree.",
      "views/knime.py"),
-    (":material/dashboard: Tableau", "Two interactive dashboards on outcomes, course performance and risk.",
+    (":material/dashboard: Tableau", "An early-warning dashboard: dropout by academic risk, finances, age and course.",
      "views/tableau.py"),
     (":material/person_search: Streamlit app", "Predicts a student's dropout risk and builds an advisor watch-list.",
      "views/predictor.py"),

@@ -22,7 +22,7 @@ pages = {
     "Analytics pipeline": [
         st.Page("views/processing.py", title="Python Processing", icon=":material/data_object:"),
         st.Page("views/explore.py", title="Exploratory Analysis", icon=":material/insights:"),
-        st.Page("views/tableau.py", title="Tableau Dashboards", icon=":material/dashboard:"),
+        st.Page("views/tableau.py", title="Tableau Dashboard", icon=":material/dashboard:"),
         st.Page("views/knime.py", title="KNIME Workflow", icon=":material/account_tree:"),
     ],
     "Application": [

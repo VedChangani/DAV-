@@ -56,6 +56,8 @@ RENAME = {
 
 OUTCOMES = ["Dropout", "Enrolled", "Graduate"]
 RISK_LEVELS = ["Low", "Medium", "High"]
+# Same bins as the Tableau "Age Group" calculated field
+AGE_GROUPS = ["≤20", "21–25", "26–30", "31+"]
 
 # Human-readable description of every engineered column (KNIME node in brackets)
 FEATURES = [
@@ -129,8 +131,8 @@ def engineer(df: pd.DataFrame) -> pd.DataFrame:
     df["academic_risk"] = academic_risk(df["overall_approval_rate"], df["average_grade"])
     df["age_group"] = pd.cut(
         df["age_at_enrollment"],
-        bins=[0, 20, 24, 30, np.inf],
-        labels=["≤20", "21–24", "25–30", "30+"],
+        bins=[0, 20, 25, 30, np.inf],
+        labels=AGE_GROUPS,
     ).astype(str)
     return df
 

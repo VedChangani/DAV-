@@ -16,7 +16,7 @@ target = Dropout / Enrolled / Graduate. Categorical codes are decoded into reada
 | Overview | Problem, KPIs, how the tools connect, key findings |
 | Python Processing | Data-quality report, cleaning steps, 14 engineered features, processed CSV download |
 | Exploratory Analysis | Filterable Plotly charts: course, finances, grades, age, risk pathways, correlations |
-| Tableau Dashboards | The two Tableau Public dashboards embedded live (Embedding API v3) |
+| Tableau Dashboard | The *Student Dropout Risk & Early Warning* dashboard embedded live (Embedding API v3) |
 | KNIME Workflow | The 28-node workflow, parsed live from `Assignment/workflow.knime`; KNIME vs Python accuracy |
 | Model Comparison | Decision tree (KNIME replica), logistic regression, random forest, gradient boosting |
 | Dropout Risk Predictor | Enter a student → dropout probability, rule-based risk segments, recommended interventions |
@@ -43,11 +43,11 @@ pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
-## Link the Tableau dashboards
+## Link the Tableau dashboard
 1. Open `tableau/student_risk_dashboards.twb` in Tableau Public Desktop and point the data source at
    `data/students_dropout.csv` if asked.
 2. **File → Save to Tableau Public As…**
-3. Copy each dashboard's share link into `src/config.py` → `TABLEAU_DASHBOARDS`, then commit and push.
+3. Copy the dashboard's share link into `src/config.py` → `TABLEAU_DASHBOARDS`, then commit and push.
 
 ## Deploy on Streamlit Community Cloud
 1. Push this folder to a public GitHub repository.
