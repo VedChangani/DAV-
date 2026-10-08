@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="renamings">
+            <config key="0">
+                <entry key="oldName" type="xstring" value="Marital status"/>
+                <entry key="newName" type="xstring" value="marital_status"/>
+            </config>
+            <config key="1">
+                <entry key="oldName" type="xstring" value="Application mode"/>
+                <entry key="newName" type="xstring" value="application_mode"/>
+            </config>
+            <config key="2">
+                <entry key="oldName" type="xstring" value="Course"/>
+                <entry key="newName" type="xstring" value="course"/>
+            </config>
+            <config key="3">
+                <entry key="oldName" type="xstring" value="Application order"/>
+                <entry key="newName" type="xstring" value="application_order"/>
+            </config>
+            <config key="4">
+                <entry key="oldName" type="xstring" value="Daytime/evening attendance"/>
+                <entry key="newName" type="xstring" value="daytime_evening_attendance"/>
+            </config>
+            <config key="5">
+                <entry key="oldName" type="xstring" value="Previous qualification"/>
+                <entry key="newName" type="xstring" value="previous_qualification"/>
+            </config>
+            <config key="6">
+                <entry key="oldName" type="xstring" value="Previous qualification (grade)"/>
+                <entry key="newName" type="xstring" value="previous_qualification_grade"/>
+            </config>
+            <config key="7">
+                <entry key="oldName" type="xstring" value="Nacionality"/>
+                <entry key="newName" type="xstring" value="nationality"/>
+            </config>
+            <config key="8">
+                <entry key="oldName" type="xstring" value="Mother's qualification"/>
+                <entry key="newName" type="xstring" value="mothers_qualification"/>
+            </config>
+            <config key="9">
+                <entry key="oldName" type="xstring" value="Father's qualification"/>
+                <entry key="newName" type="xstring" value="fathers_qualification"/>
+            </config>
+            <config key="10">
+                <entry key="oldName" type="xstring" value="Mother's occupation"/>
+                <entry key="newName" type="xstring" value="mothers_occupation"/>
+            </config>
+            <config key="11">
+                <entry key="oldName" type="xstring" value="Father's occupation"/>
+                <entry key="newName" type="xstring" value="fathers_occupation"/>
+            </config>
+            <config key="12">
+                <entry key="oldName" type="xstring" value="Admission grade"/>
+                <entry key="newName" type="xstring" value="admission_grade"/>
+            </config>
+            <config key="13">
+                <entry key="oldName" type="xstring" value="Displaced"/>
+                <entry key="newName" type="xstring" value="displaced"/>
+            </config>
+            <config key="14">
+                <entry key="oldName" type="xstring" value="Educational special needs"/>
+                <entry key="newName" type="xstring" value="educational_special_needs"/>
+            </config>
+            <config key="15">
+                <entry key="oldName" type="xstring" value="Debtor"/>
+                <entry key="newName" type="xstring" value="debtor"/>
+            </config>
+            <config key="16">
+                <entry key="oldName" type="xstring" value="Tuition fees up to date"/>
+                <entry key="newName" type="xstring" value="tuition_fees_up_to_date"/>
+            </config>
+            <config key="17">
+                <entry key="oldName" type="xstring" value="Gender"/>
+                <entry key="newName" type="xstring" value="gender"/>
+            </config>
+            <config key="18">
+                <entry key="oldName" type="xstring" value="Scholarship holder"/>
+                <entry key="newName" type="xstring" value="scholarship_holder"/>
+            </config>
+            <config key="19">
+                <entry key="oldName" type="xstring" value="Age at enrollment"/>
+                <entry key="newName" type="xstring" value="age_at_enrollment"/>
+            </config>
+            <config key="20">
+                <entry key="oldName" type="xstring" value="International"/>
+                <entry key="newName" type="xstring" value="international"/>
+            </config>
+            <config key="21">
+                <entry key="oldName" type="xstring" value="Curricular units 1st sem (credited)"/>
+                <entry key="newName" type="xstring" value="sem1_credited"/>
+            </config>
+            <config key="22">
+                <entry key="oldName" type="xstring" value="Curricular units 1st sem (enrolled)"/>
+                <entry key="newName" type="xstring" value="sem1_enrolled"/>
+            </config>
+            <config key="23">
+                <entry key="oldName" type="xstring" value="Curricular units 1st sem (evaluations)"/>
+                <entry key="newName" type="xstring" value="sem1_evaluations"/>
+            </config>
+            <config key="24">
+                <entry key="oldName" type="xstring" value="Curricular units 1st sem (approved)"/>
+                <entry key="newName" type="xstring" value="sem1_approved"/>
+            </config>
+            <config key="25">
+                <entry key="oldName" type="xstring" value="Curricular units 1st sem (grade)"/>
+                <entry key="newName" type="xstring" value="sem1_grade"/>
+            </config>
+            <config key="26">
+                <entry key="oldName" type="xstring" value="Curricular units 1st sem (without evaluations)"/>
+                <entry key="newName" type="xstring" value="sem1_without_evaluations"/>
+            </config>
+            <config key="27">
+                <entry key="oldName" type="xstring" value="Curricular units 2nd sem (credited)"/>
+                <entry key="newName" type="xstring" value="sem2_credited"/>
+            </config>
+            <config key="28">
+                <entry key="oldName" type="xstring" value="Curricular units 2nd sem (enrolled)"/>
+                <entry key="newName" type="xstring" value="sem2_enrolled"/>
+            </config>
+            <config key="29">
+                <entry key="oldName" type="xstring" value="Curricular units 2nd sem (evaluations)"/>
+                <entry key="newName" type="xstring" value="sem2_evaluations"/>
+            </config>
+            <config key="30">
+                <entry key="oldName" type="xstring" value="Curricular units 2nd sem (approved)"/>
+                <entry key="newName" type="xstring" value="sem2_approved"/>
+            </config>
+            <config key="31">
+                <entry key="oldName" type="xstring" value="Curricular units 2nd sem (grade)"/>
+                <entry key="newName" type="xstring" value="sem2_grade"/>
+            </config>
+            <config key="32">
+                <entry key="oldName" type="xstring" value="Curricular units 2nd sem (without evaluations)"/>
+                <entry key="newName" type="xstring" value="sem2_without_evaluations"/>
+            </config>
+            <config key="33">
+                <entry key="oldName" type="xstring" value="Unemployment rate"/>
+                <entry key="newName" type="xstring" value="unemployment_rate"/>
+            </config>
+            <config key="34">
+                <entry key="oldName" type="xstring" value="Inflation rate"/>
+                <entry key="newName" type="xstring" value="inflation_rate"/>
+            </config>
+            <config key="35">
+                <entry key="oldName" type="xstring" value="GDP"/>
+                <entry key="newName" type="xstring" value="gdp"/>
+            </config>
+            <config key="36">
+                <entry key="oldName" type="xstring" value="Target"/>
+                <entry key="newName" type="xstring" value="target"/>
+            </config>
+        </config>
+        <entry key="doNotAllowPaddedColumnName_Internals" type="xboolean" value="true"/>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Renamer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.12.0.v202606261225"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.12.0.v202606261225"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Renamer"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 4424, Cols: 37"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="065b7c23-9b6d-4d88-a0a6-85d2bb7bdcf5"/>
+    </config>
+</config>
